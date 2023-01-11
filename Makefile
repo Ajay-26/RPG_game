@@ -16,3 +16,6 @@ component.o: component.cpp component.h
 
 vector.o: vector.cpp vector.h
 	$(CC) -c vector.cpp -o vector.o $(COMPILER_FLAGS)
+
+clean:
+	rm *.o game
